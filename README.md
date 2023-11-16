@@ -4,6 +4,26 @@ This reference implementation demonstrates the _recommended starting (baseline) 
 
 We walk through the deployment here in a rather _verbose_ method to help you understand each component of this cluster, ideally teaching you about each layer and providing you with the knowledge necessary to apply it to your workload.
 
+
+## Azure Kubernetes Service (AKS) Production Baseline Videos
+
+[**1-Azure Kubernetes Service (AKS) Production Baseline Intro.**](https://www.youtube.com/watch?v=-Hjyqxn1cqI&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8)
+
+In this video Ray Kao (Twitter: @RayKao), Open Source/Cloud Native Architect on the Azure Global Black Belt Team and Diego Casati (Twitter: @DiegoCasati), Cloud Solution Architect on the One Commercial Partner Team, kick-off and intro the Azure Kubernetes (AKS) Production Baseline Architecture Workshop.
+
+[**2-Azure Kubernetes Service (AKS) Private Clusters.**](https://www.youtube.com/watch?v=ttDCbzVRwkI&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8&index=2)
+
+In this video Ray Kao (Twitter: @RayKao), Technical Specialist on the Azure Global Black Belt Team, describes what Azure Kubernetes Service (AKS) Private Clusters are and how they work.
+
+
+[**3-Networking configuration: Network topology.**](https://www.youtube.com/watch?v=VN4L5eBjoCg&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8&index=3)
+
+In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses the hub-spoke network topology that is part of the AKS baseline architecture.
+
+[**4-Networking configuration: Plan the IP addresses.**](https://www.youtube.com/watch?v=pgIKfOjz3co&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8&index=4)
+
+In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses the how to plan the IP addresses as part of the AKS baseline architecture.
+
 ## Azure Architecture Center guidance
 
 This project has a companion set of articles that describe challenges, design patterns, and best practices for a secure AKS cluster. You can find this article on the Azure Architecture Center at [Azure Kubernetes Service (AKS) baseline cluster](https://aka.ms/architecture/aks-baseline). If you haven't reviewed it, we suggest you read it as it will give added context to the considerations applied in this implementation. Ultimately, this is the direct implementation of that specific architectural guidance.
