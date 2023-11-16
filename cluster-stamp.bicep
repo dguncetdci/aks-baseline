@@ -30,7 +30,7 @@ param clusterAuthorizedIPRanges array = []
   'usgovtexas'
   'usgovarizona'
 ])
-param location string = 'eastus2'
+param location string = 'usgovvirginia'
 param kubernetesVersion string = '1.27.3'
 
 @description('Domain name to use for App Gateway and AKS ingress.')
