@@ -26,22 +26,9 @@ param clusterAuthorizedIPRanges array = []
 
 @description('AKS Service, Node Pool, and supporting services (KeyVault, App Gateway, etc) region. This needs to be the same region as the vnet provided in these parameters.')
 @allowed([
-  'australiaeast'
-  'canadacentral'
-  'centralus'
-  'eastus'
-  'eastus2'
-  'westus2'
-  'westus3'
-  'francecentral'
-  'germanywestcentral'
-  'northeurope'
-  'southafricanorth'
-  'southcentralus'
-  'uksouth'
-  'westeurope'
-  'japaneast'
-  'southeastasia'
+  'usgovvirginia'
+  'usgovtexas'
+  'usgovarizona'
 ])
 param location string = 'eastus2'
 param kubernetesVersion string = '1.27.3'
