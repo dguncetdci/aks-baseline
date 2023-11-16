@@ -403,7 +403,7 @@ resource pipPrimaryClusterIp_diagnosticSetting 'Microsoft.Insights/diagnosticSet
     workspaceId: laHub.id
     logs: [
       {
-        categoryGroup: 'audit'
+        categoryGroup: 'allLogs'
         enabled: true
       }
     ]
