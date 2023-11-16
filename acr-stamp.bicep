@@ -7,51 +7,20 @@ targetScope = 'resourceGroup'
 param targetVnetResourceId string
 
 @allowed([
-  'australiaeast'
-  'canadacentral'
-  'centralus'
-  'eastus'
-  'eastus2'
-  'westus2'
-  'westus3'
-  'francecentral'
-  'germanywestcentral'
-  'northeurope'
-  'southafricanorth'
-  'southcentralus'
-  'uksouth'
-  'westeurope'
-  'japaneast'
-  'southeastasia'
+  'usgovvirginia'
+  'usgovtexas'
+  'usgovarizona'
 ])
 @description('AKS Service, Node Pool, and supporting services (KeyVault, App Gateway, etc) region. This needs to be the same region as the vnet provided in these parameters.')
-param location string = 'eastus2'
+param location string = 'usgovvirginia'
 
 @allowed([
-  'australiasoutheast'
-  'canadaeast'
-  'eastus2'
-  'westus'
-  'centralus'
-  'westcentralus'
-  'francesouth'
-  'germanynorth'
-  'westeurope'
-  'ukwest'
-  'northeurope'
-  'japanwest'
-  'southafricawest'
-  'northcentralus'
-  'eastasia'
-  'eastus'
-  'westus2'
-  'francecentral'
-  'uksouth'
-  'japaneast'
-  'southeastasia'
+  'usgovvirginia'
+  'usgovtexas'
+  'usgovarizona'
 ])
 @description('For Azure resources that support native geo-redunancy, provide the location the redundant service will have its secondary. Should be different than the location parameter and ideally should be a paired region - https://learn.microsoft.com/azure/best-practices-availability-paired-regions. This region does not need to support availability zones.')
-param geoRedundancyLocation string = 'centralus'
+param geoRedundancyLocation string = 'usgovtexas'
 
 /*** VARIABLES ***/
 
