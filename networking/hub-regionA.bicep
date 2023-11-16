@@ -7,25 +7,12 @@ targetScope = 'resourceGroup'
 param nodepoolSubnetResourceIds array
 
 @allowed([
-  'australiaeast'
-  'canadacentral'
-  'centralus'
-  'eastus'
-  'eastus2'
-  'westus2'
-  'westus3'
-  'francecentral'
-  'germanywestcentral'
-  'northeurope'
-  'southafricanorth'
-  'southcentralus'
-  'uksouth'
-  'westeurope'
-  'japaneast'
-  'southeastasia'
+  'usgovvirginia'
+  'usgovtexas'
+  'usgovarizona'
 ])
 @description('The hub\'s regional affinity. All resources tied to this hub will also be homed in this region. The network team maintains this approved regional list which is a subset of zones with Availability Zone support.')
-param location string = 'eastus2'
+param location string = 'usgovvirginia'
 
 @description('Optional. A /24 to contain the regional firewall, management, and gateway subnet. Defaults to 10.200.0.0/24')
 @maxLength(18)
