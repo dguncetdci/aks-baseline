@@ -62,7 +62,7 @@ resource laHub_diagnosticsSettings 'Microsoft.Insights/diagnosticSettings@2021-0
     workspaceId: laHub.id
     logs: [
       {
-        categoryGroup: 'alllogs'
+        categoryGroup: 'allLogs'
         enabled: true
       }
     ]
@@ -340,7 +340,7 @@ resource pipAzureFirewall_diagnosticSetting 'Microsoft.Insights/diagnosticSettin
     workspaceId: laHub.id
     logs: [
       {
-        categoryGroup: 'alllogs'
+        categoryGroup: 'allLogs'
         enabled: true
       }
     ]
