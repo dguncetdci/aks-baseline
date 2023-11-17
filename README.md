@@ -6,8 +6,10 @@ We walk through the deployment here in a rather _verbose_ method to help you und
 
 
 ## Azure Kubernetes Service (AKS) Production Baseline Videos
+**1-Azure Kubernetes Service (AKS) Production Baseline Intro.**
 
-[**1-Azure Kubernetes Service (AKS) Production Baseline Intro.**](https://www.youtube.com/watch?v=-Hjyqxn1cqI&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8)
+[![**1-Azure Kubernetes Service (AKS) Production Baseline Intro.**](http://img.youtube.com/vi/-Hjyqxn1cqI/0.jpg)](https://www.youtube.com/watch?v=-Hjyqxn1cqI&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8 "1-Azure Kubernetes Service (AKS) Production Baseline Intro")
+
 
 In this video Ray Kao (Twitter: @RayKao), Open Source/Cloud Native Architect on the Azure Global Black Belt Team and Diego Casati (Twitter: @DiegoCasati), Cloud Solution Architect on the One Commercial Partner Team, kick-off and intro the Azure Kubernetes (AKS) Production Baseline Architecture Workshop.
 
