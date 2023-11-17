@@ -13,7 +13,10 @@ We walk through the deployment here in a rather _verbose_ method to help you und
 
 In this video Ray Kao (Twitter: @RayKao), Open Source/Cloud Native Architect on the Azure Global Black Belt Team and Diego Casati (Twitter: @DiegoCasati), Cloud Solution Architect on the One Commercial Partner Team, kick-off and intro the Azure Kubernetes (AKS) Production Baseline Architecture Workshop.
 
-[**2-Azure Kubernetes Service (AKS) Private Clusters.**](https://www.youtube.com/watch?v=ttDCbzVRwkI&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8&index=2)
+**2-Azure Kubernetes Service (AKS) Private Clusters.**
+
+[![**2-Azure Kubernetes Service (AKS) Private Clusters.**](http://img.youtube.com/vi/ttDCbzVRwkI/0.jpg)](https://www.youtube.com/watch?v=ttDCbzVRwkI&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8&index=2 "**2-Azure Kubernetes Service (AKS) Private Clusters.**")
+
 
 In this video Ray Kao (Twitter: @RayKao), Technical Specialist on the Azure Global Black Belt Team, describes what Azure Kubernetes Service (AKS) Private Clusters are and how they work.
 
