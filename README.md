@@ -79,6 +79,23 @@ In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on 
 
 In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses the considerations for designing cluster and workload with CI/CD pipelines as part of the AKS baseline architecture.
 
+**14-Operations: Cluster health and metrics.**
+
+[![**14-Operations: Cluster health and metrics**](http://img.youtube.com/vi/k-DDeAnuvFo/0.jpg)](https://www.youtube.com/watch?v=k-DDeAnuvFo&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8&index=14 "**14-Operations: Cluster health and metrics**")
+
+In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses the Kubernetes Ingress resources that are part of the AKS baseline architecture.
+
+**15-Operations: Cost management and reporting.**
+
+[![**15-Operations: Cost management and reporting**](http://img.youtube.com/vi/F6xhcLTQfe0/0.jpg)](https://www.youtube.com/watch?v=F6xhcLTQfe0&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8&index=15 "**15-Operations: Cost management and reporting**")
+
+
+**16-Azure Kubernetes Service Production Baseline: Next Steps.**
+
+[![**16-Azure Kubernetes Service Production Baseline: Next Steps**](http://img.youtube.com/vi/OhTYPaxDXCk/0.jpg)](https://www.youtube.com/watch?v=OhTYPaxDXCk&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8&index=16 "**16-Azure Kubernetes Service Production Baseline: Next Steps**")
+
+In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses what's next for expanding the learning lessons during the AKS baseline architecture video series.
+
 ## Azure Architecture Center guidance
 
 This project has a companion set of articles that describe challenges, design patterns, and best practices for a secure AKS cluster. You can find this article on the Azure Architecture Center at [Azure Kubernetes Service (AKS) baseline cluster](https://aka.ms/architecture/aks-baseline). If you haven't reviewed it, we suggest you read it as it will give added context to the considerations applied in this implementation. Ultimately, this is the direct implementation of that specific architectural guidance.
