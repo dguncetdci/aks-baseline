@@ -17,11 +17,11 @@ In this video Ray Kao (Twitter: @RayKao), Open Source/Cloud Native Architect on 
 
 [![**2-Azure Kubernetes Service (AKS) Private Clusters.**](http://img.youtube.com/vi/ttDCbzVRwkI/0.jpg)](https://www.youtube.com/watch?v=ttDCbzVRwkI&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8&index=2 "**2-Azure Kubernetes Service (AKS) Private Clusters.**")
 
-
 In this video Ray Kao (Twitter: @RayKao), Technical Specialist on the Azure Global Black Belt Team, describes what Azure Kubernetes Service (AKS) Private Clusters are and how they work.
 
+**3-Networking configuration: Network topology.**
 
-[**3-Networking configuration: Network topology.**](https://www.youtube.com/watch?v=VN4L5eBjoCg&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8&index=3)
+[![**3-Networking configuration: Network topology.**](http://img.youtube.com/vi/VN4L5eBjoCg/0.jpg)](https://www.youtube.com/watch?v=VN4L5eBjoCg&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8 "3-Networking configuration: Network topology.**")
 
 In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses the hub-spoke network topology that is part of the AKS baseline architecture.
 
