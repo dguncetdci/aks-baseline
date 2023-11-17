@@ -73,6 +73,11 @@ In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on 
 
 In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses business continuity approaches for high availability using zones and regions as part of the AKS baseline architecture.
 
+**13-Operations: Cluster and workload CI/CD.**
+
+[![**13-Operations: Cluster and workload CI/CD**](http://img.youtube.com/vi/bL3lR8OzWrw/0.jpg)](https://www.youtube.com/watch?v=bL3lR8OzWrw&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8&index=13 "**13-Operations: Cluster and workload CI/CD**")
+
+In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses the considerations for designing cluster and workload with CI/CD pipelines as part of the AKS baseline architecture.
 
 ## Azure Architecture Center guidance
 
