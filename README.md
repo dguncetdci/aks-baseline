@@ -25,9 +25,54 @@ In this video Ray Kao (Twitter: @RayKao), Technical Specialist on the Azure Glob
 
 In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses the hub-spoke network topology that is part of the AKS baseline architecture.
 
-[**4-Networking configuration: Plan the IP addresses.**](https://www.youtube.com/watch?v=pgIKfOjz3co&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8&index=4)
+**4-Networking configuration: Plan the IP addresses.**
+
+[![[**4-Networking configuration: Plan the IP addresses.**]](http://img.youtube.com/vi/pgIKfOjz3co/0.jpg)](https://www.youtube.com/watch?v=pgIKfOjz3co&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8 "**4-Networking configuration: Plan the IP addresses.**")
 
 In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses the how to plan the IP addresses as part of the AKS baseline architecture.
+
+**5-Networking configuration: Deploy Ingress resources.**
+
+[![[**5-Networking configuration: Deploy Ingress resources.**]](http://img.youtube.com/vi/1qrLzsbUVvg/0.jpg)](https://www.youtube.com/watch?v=1qrLzsbUVvg&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8 "**5-Networking configuration: Deploy Ingress resources.**")
+
+In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses the Kubernetes Ingress resources that are part of the AKS baseline architecture.
+
+**6-Cluster compute: Compute for the base cluster.**
+
+[![[**6-Cluster compute: Compute for the base cluster.**]](http://img.youtube.com/vi/NTJmaLpUHgw/0.jpg)](https://www.youtube.com/watch?v=NTJmaLpUHgw&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8 "**6-Cluster compute: Compute for the base cluster.**")
+
+In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses the how to plan the AKS node pools that are part of the AKS baseline architecture.
+
+**7-Identity management: Integrate Azure AD for the cluster and for the workload.**
+
+[![[**7-Identity management: Integrate Azure AD for the cluster and for the workload.**]](http://img.youtube.com/vi/nQHemp3Y1C8/0.jpg)](https://www.youtube.com/watch?v=nQHemp3Y1C8&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8 "**7-Identity management: Integrate Azure AD for the cluster and for the workload.**")
+
+In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses the security integration of Azure AD with the AKS cluster that is part of the AKS baseline architecture.
+
+**8-Secure Data Flow: Secure the network flow.**
+
+[![**7-Identity management: Integrate Azure AD for the cluster and for the workload.**](http://img.youtube.com/vi/9IE6weAOBqI/0.jpg)](https://www.youtube.com/watch?v=9IE6weAOBqI "**8-Secure Data Flow: Secure the network flow.**")
+
+In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses the network flow in the AKS baseline architecture.
+
+**9-Secure Data Flow: Add secret management.**
+
+[![**9-Secure Data Flow: Add secret management**](http://img.youtube.com/vi/TC3vpq8l7CM/0.jpg)](https://www.youtube.com/watch?v=TC3vpq8l7CM&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8&index=9 "**9-Secure Data Flow: Add secret management**")
+
+In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses how to manage secrets in the AKS baseline architecture.
+
+**10-Business continuity: Cluster and node availability.**
+
+[![**10-Business continuity: Cluster and node availability**](http://img.youtube.com/vi/h8XaKBeScoY/0.jpg)](https://www.youtube.com/watch?v=h8XaKBeScoY&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8&index=10 "**10-Business continuity: Cluster and node availability**")
+
+In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses the Kubernetes Ingress resources that are part of the AKS baseline architecture.
+
+**12-Business continuity: Availability and multi region support.**
+
+[![**12-Business continuity: Availability and multi region support**](http://img.youtube.com/vi/-gSBO_jZNXo/0.jpg)](https://www.youtube.com/watch?v=-gSBO_jZNXo&list=PLKFaWBYMOdDvE5tjP8qzcZOgAo7-ONhd8&index=12 "**12-Business continuity: Availability and multi region support**")
+
+In this video Diego Casati (Twitter: @diegocasati), Cloud Solution Architect on the One Commercial Partner Team, discusses business continuity approaches for high availability using zones and regions as part of the AKS baseline architecture.
+
 
 ## Azure Architecture Center guidance
 
