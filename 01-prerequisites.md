@@ -49,7 +49,7 @@ This is the starting point for the instructions on deploying the [AKS baseline r
    > Make sure you use HTTPS (and not SSH) to clone the repository. (The remote URL will later be used to configure GitOps using Flux which requires an HTTPS endpoint to work properly.)
 
    ```bash
-   git clone https://github.com/costadelsolbjj/aks-baseline.git
+   git clone https://github.com/dguncetdci/aks-baseline.git
    cd aks-baseline
    ```
 
