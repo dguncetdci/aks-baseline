@@ -29,7 +29,7 @@ This is the starting point for the instructions on deploying the [AKS baseline r
    [![Launch Azure Cloud Shell](https://learn.microsoft.com/azure/includes/media/cloud-shell-try-it/launchcloudshell.png)](https://shell.azure.com)
 
 
-    In Azure Government, there is no equivalent to Azure Cloud Shell that you can find in the Azure portal.
+   1.  In Azure Government, there is no equivalent to Azure Cloud Shell that you can find in the Azure portal.
    ```bash
    # Connect to Azure Government by setting the cloud with the name AzureUSGovernment.
    az cloud set --name AzureUSGovernment
