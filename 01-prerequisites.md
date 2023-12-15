@@ -28,6 +28,28 @@ This is the starting point for the instructions on deploying the [AKS baseline r
 
    [![Launch Azure Cloud Shell](https://learn.microsoft.com/azure/includes/media/cloud-shell-try-it/launchcloudshell.png)](https://shell.azure.com)
 
+
+    In Azure Government, there is no equivalent to Azure Cloud Shell that you can find in the Azure portal.
+   ```bash
+   # Connect to Azure Government by setting the cloud with the name AzureUSGovernment.
+   az cloud set --name AzureUSGovernment
+
+   # Once the cloud has been set, you can continue logging in:
+   az login
+
+   # get the current default subscription using show
+   az account show --output table
+
+   # change the active subscription using the subscription ID
+   az account set --subscription "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+
+   # store the default subscription in a variable
+   subscriptionId="$(az account list --query "[?isDefault].id" --output tsv)"
+   echo $subscriptionId
+
+   
+   ```
+
 1. While the following feature(s) are still in _preview_, please enable them in your target subscription.
 
    1. [Register the ImageCleaner (Earser) preview feature = `EnableImageCleanerPreview`](https://learn.microsoft.com/azure/aks/image-cleaner#prerequisites)
