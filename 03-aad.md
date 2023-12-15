@@ -51,6 +51,12 @@ This does not configure anything related to workload identity. This configuratio
    export AADOBJECTID_GROUP_CLUSTERADMIN_AKS_BASELINE=$(az ad group create --display-name 'cluster-admins-bu0001a000800' --mail-nickname 'cluster-admins-bu0001a000800' --description "Principals in this group are cluster admins in the bu0001a000800 cluster." --query id -o tsv)
    echo AADOBJECTID_GROUP_CLUSTERADMIN_AKS_BASELINE: $AADOBJECTID_GROUP_CLUSTERADMIN_AKS_BASELINE
    ```
+ If you want to retrieve the object id for an existing group, you can use the following code:
+
+   ```bash
+   export AADOBJECTID_GROUP_CLUSTERADMIN_AKS_BASELINE=$(az ad group member list --group "cluster-admins-bu0001a000800" --query "[].id" -o tsv)
+   echo AADOBJECTID_GROUP_CLUSTERADMIN_AKS_BASELINE: $AADOBJECTID_GROUP_CLUSTERADMIN_AKS_BASELINE
+   ```
 
    This Azure AD group object ID will be used later while creating the cluster. This way, once the cluster gets deployed the new group will get the proper Cluster Role bindings in Kubernetes.
 
