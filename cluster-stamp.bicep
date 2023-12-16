@@ -48,7 +48,7 @@ param gitOpsBootstrappingRepoBranch string = 'main'
 
 var subRgUniqueString = uniqueString('aks', subscription().subscriptionId, resourceGroup().id)
 var clusterName = 'aks-${subRgUniqueString}'
-var agwName = 'apw-${clusterName}'
+var agwName = '-${clusterName}'
 
 var aksIngressDomainName = 'aks-ingress.${domainName}'
 var aksBackendDomainName = 'bu0001a0008-00.${aksIngressDomainName}'
@@ -2133,7 +2133,7 @@ resource wafPolicy 'Microsoft.Network/ApplicationGatewayWebApplicationFirewallPo
   }
 }
 
-resource agw 'Microsoft.Network/applicationGateways@2023-02-01' = {
+resource agw 'Microsoft.Network/applicationGateways@2021-05-01' = {
   name: agwName
   location: location
   identity: {
@@ -2166,7 +2166,7 @@ resource agw 'Microsoft.Network/applicationGateways@2023-02-01' = {
     ]
     gatewayIPConfigurations: [
       {
-        name: 'apw-ip-configuration'
+        name: '-ip-configuration'
         properties: {
           subnet: {
             id: targetVirtualNetwork::snetApplicationGateway.id
@@ -2176,7 +2176,7 @@ resource agw 'Microsoft.Network/applicationGateways@2023-02-01' = {
     ]
     frontendIPConfigurations: [
       {
-        name: 'apw-frontend-ip-configuration'
+        name: '-frontend-ip-configuration'
         properties: {
           publicIPAddress: {
             id: resourceId(subscription().subscriptionId, targetResourceGroup.name, 'Microsoft.Network/publicIpAddresses', 'pip-BU0001A0008-00')
