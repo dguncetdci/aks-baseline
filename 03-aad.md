@@ -102,8 +102,8 @@ This does not configure anything related to workload identity. This configuratio
 
    Add the GroupsId if object is not correct
  ```bash
-   export clusterAdminAadGroupObjectId="GroupObjectI"
-   export a0008NamespaceReaderAadGroupObjectId="GroupObjectI"
+export AADOBJECTID_GROUP_CLUSTERADMIN_AKS_BASELINE="GroupObjectI"
+export AADOBJECTID_GROUP_A0008_READER_AKS_BASELINE="GroupObjectI"
  ```
 ## Kubernetes RBAC backing store
 
