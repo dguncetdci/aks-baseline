@@ -99,6 +99,12 @@ This does not configure anything related to workload identity. This configuratio
    echo AADOBJECTID_GROUP_A0008_READER_AKS_BASELINE: $AADOBJECTID_GROUP_A0008_READER_AKS_BASELINE
    ```
 
+
+   Add the GroupsId if object is not correct
+ ```bash
+   export clusterAdminAadGroupObjectId="GroupObjectI"
+   export a0008NamespaceReaderAadGroupObjectId="GroupObjectI"
+ ```
 ## Kubernetes RBAC backing store
 
 AKS supports backing Kubernetes with Azure AD in two different modalities. One is direct association between Azure AD and Kubernetes `ClusterRoleBindings`/`RoleBindings` in the cluster. This is possible no matter if the Azure AD tenant you wish to use to back your Kubernetes RBAC is the same or different than the Tenant backing your Azure resources. If however the tenant that is backing your Azure resources (Azure RBAC source) is the same tenant you plan on using to back your Kubernetes RBAC, then instead you can add a layer of indirection between Azure AD and your cluster by using Azure RBAC instead of direct cluster `RoleBinding` manipulation. When performing this walk-through, you may have had no choice but to associate the cluster with another tenant (due to the elevated permissions necessary in Azure AD to manage groups and users); but when you take this to production be sure you're using Azure RBAC as your Kubernetes RBAC backing store if the tenants are the same. Both cases still leverage integrated authentication between Azure AD and AKS, Azure RBAC simply elevates this control to Azure RBAC instead of direct yaml-based management within the cluster which usually will align better with your organization's governance strategy.
