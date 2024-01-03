@@ -48,7 +48,7 @@ param gitOpsBootstrappingRepoBranch string = 'main'
 
 var subRgUniqueString = uniqueString('aks', subscription().subscriptionId, resourceGroup().id)
 var clusterName = 'aks-${subRgUniqueString}'
-var agwName = '-${clusterName}'
+var agwName = 'apw-${clusterName}'
 
 var aksIngressDomainName = 'aks-ingress.${domainName}'
 var aksBackendDomainName = 'bu0001a0008-00.${aksIngressDomainName}'
@@ -1470,7 +1470,7 @@ resource kv 'Microsoft.KeyVault/vaults@2021-11-01-preview' = {
     createMode: 'default'
   }
   dependsOn: [
-    miAppGatewayFrontend
+    miAppGatewayend
     podmiIngressController
   ]
 
@@ -1509,24 +1509,24 @@ resource kv_diagnosticSettings 'Microsoft.Insights/diagnosticSettings@2021-05-01
   }
 }
 
-// Grant the Azure Application Gateway managed identity with key vault reader role permissions; this allows pulling frontend and backend certificates.
-resource kvMiAppGatewayFrontendSecretsUserRole_roleAssignment 'Microsoft.Authorization/roleAssignments@2020-10-01-preview' = {
+// Grant the Azure Application Gateway managed identity with key vault reader role permissions; this allows pulling end and backend certificates.
+resource kvMiAppGatewayendSecretsUserRole_roleAssignment 'Microsoft.Authorization/roleAssignments@2020-10-01-preview' = {
   scope: kv
-  name: guid(resourceGroup().id, 'mi-appgateway-frontend', keyVaultSecretsUserRole.id)
+  name: guid(resourceGroup().id, 'mi-appgateway-end', keyVaultSecretsUserRole.id)
   properties: {
     roleDefinitionId: keyVaultSecretsUserRole.id
-    principalId: miAppGatewayFrontend.properties.principalId
+    principalId: miAppGatewayend.properties.principalId
     principalType: 'ServicePrincipal'
   }
 }
 
-// Grant the Azure Application Gateway managed identity with key vault reader role permissions; this allows pulling frontend and backend certificates.
-resource kvMiAppGatewayFrontendKeyVaultReader_roleAssignment 'Microsoft.Authorization/roleAssignments@2020-10-01-preview' = {
+// Grant the Azure Application Gateway managed identity with key vault reader role permissions; this allows pulling end and backend certificates.
+resource kvMiAppGatewayendKeyVaultReader_roleAssignment 'Microsoft.Authorization/roleAssignments@2020-10-01-preview' = {
   scope: kv
-  name: guid(resourceGroup().id, 'mi-appgateway-frontend', keyVaultReaderRole.id)
+  name: guid(resourceGroup().id, 'mi-appgateway-end', keyVaultReaderRole.id)
   properties: {
     roleDefinitionId: keyVaultReaderRole.id
-    principalId: miAppGatewayFrontend.properties.principalId
+    principalId: miAppGatewayend.properties.principalId
     principalType: 'ServicePrincipal'
   }
 }
@@ -2139,7 +2139,7 @@ resource agw 'Microsoft.Network/applicationGateways@2021-05-01' = {
   identity: {
     type: 'UserAssigned'
     userAssignedIdentities: {
-      '${miAppGatewayFrontend.id}': {}
+      '${miAppGatewayend.id}': {}
     }
   }
   zones: pickZones('Microsoft.Network', 'applicationGateways', location, 3)
@@ -2166,7 +2166,7 @@ resource agw 'Microsoft.Network/applicationGateways@2021-05-01' = {
     ]
     gatewayIPConfigurations: [
       {
-        name: '-ip-configuration'
+        name: 'apw-ip-configuration'
         properties: {
           subnet: {
             id: targetVirtualNetwork::snetApplicationGateway.id
@@ -2176,7 +2176,7 @@ resource agw 'Microsoft.Network/applicationGateways@2021-05-01' = {
     ]
     frontendIPConfigurations: [
       {
-        name: '-frontend-ip-configuration'
+        name: 'apw-frontend-ip-configuration'
         properties: {
           publicIPAddress: {
             id: resourceId(subscription().subscriptionId, targetResourceGroup.name, 'Microsoft.Network/publicIpAddresses', 'pip-BU0001A0008-00')
