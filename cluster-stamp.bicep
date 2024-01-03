@@ -42,6 +42,9 @@ param clusterAuthorizedIPRanges array = []
   'westeurope'
   'japaneast'
   'southeastasia'
+  'usgovvirginia'
+  'usgovtexas'
+  'usgovarizona'
 ])
 param location string = 'eastus2'
 param kubernetesVersion string = '1.27.3'
