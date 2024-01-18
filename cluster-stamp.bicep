@@ -1581,7 +1581,7 @@ module ndEnsureClusterIdentityHasRbacToSelfManagedResources 'nested_EnsureCluste
 
 // Enabling Azure Key Vault Private Link support.
 resource pdzKv 'Microsoft.Network/privateDnsZones@2020-06-01' = {
-  name: 'privatelink.vaultcore.azure.net'
+  name: 'privatelink.vaultcore.usgovcloudapi.net'
   location: 'global'
 
   // Enabling Azure Key Vault Private Link on cluster vnet.
