@@ -49,6 +49,7 @@ Previously you have configured [workload prerequisites](./08-workload-prerequisi
              objectAlias: tls.key
              objectType: secret
        tenantID: $TENANTID_AZURERBAC_AKS_BASELINE
+       cloudName: AzureUSGovernment
    EOF
    ```
 
